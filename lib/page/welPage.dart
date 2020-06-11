@@ -17,7 +17,7 @@ class welPage extends StatelessWidget {
             (route) => route == null,
       );
     });
-    return new Image.asset("images/welcome_bg.jpeg",fit: BoxFit.fill);
+    return new Image.asset("assetss/images/welcome_bg.jpeg",fit: BoxFit.fill);
   }
 
 

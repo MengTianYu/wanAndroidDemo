@@ -75,7 +75,7 @@ class _SecondTabState extends State<SecondTab>
             : Text("项目"),
       ),
       body: Container(
-        child: (treelist == null || data[treelist[_checkIndex].id.toString()] == null)
+        child: (treelist == null ||data == null || data[treelist[_checkIndex].id.toString()] == null)
             ? Container()
             : SmartRefresher(
                 header: WaterDropHeader(),

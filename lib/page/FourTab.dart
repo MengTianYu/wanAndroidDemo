@@ -88,7 +88,7 @@ class _FourTabState extends State<FourTab> {
                         border: Border.all(color: Colors.transparent, width: 0),
                         image: DecorationImage(
                             image: userAvatar == null || userAvatar == ""
-                                ? AssetImage("images/ic_head.jpeg")
+                                ? AssetImage("assetss/images/ic_head.jpeg")
                                 : NetworkImage(userAvatar),
                             fit: BoxFit.cover)),
                   ),
